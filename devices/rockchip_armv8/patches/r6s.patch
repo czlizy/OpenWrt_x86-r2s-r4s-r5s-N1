@@ -6,9 +6,9 @@
 +define Device/friendlyarm_nanopi-r5c
 +  DEVICE_VENDOR := FriendlyARM
 +  DEVICE_MODEL := NanoPi R5C
-+  SOC := rk3328
++  SOC := rk3568
 +  DEVICE_PACKAGES := -luci-app-gpsysupgrade
-+  DEVICE_DTS = rockchip/rk3328-nanopi-r2s
++  DEVICE_DTS = rockchip/rk3568-nanopi-r5c
 +endef
 +TARGET_DEVICES += friendlyarm_nanopi-r5c
 +
